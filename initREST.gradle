@@ -1,0 +1,12 @@
+/*
+  Gradle Project Creation Wizard Init Script for REST Project
+*/
+allprojects {
+	ant.copy(todir: '') {
+		fileset (
+			dir: '../.metadata/init.gradle_template_rest',
+			defaultexcludes: 'no',
+			excludes: '**/thumbs.db, **/desktop.ini, **/.DS_Store', 
+		)
+	}
+}
