@@ -10,7 +10,7 @@ public class ToDo {
 	private String date;
 	private boolean completed;
 	
-	public ToDo(int id, String title, String date, boolean completed, int priority) {
+	public ToDo(int id, String title, String date, boolean completed) {
 		this.id = id;
 		this.title = title;
 		this.date = date;
